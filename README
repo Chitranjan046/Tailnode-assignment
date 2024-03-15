@@ -26,6 +26,13 @@ Replace <username>, <password>, <cluster>, <database>, and <your_api_key> with y
 3. Part A done
 
 
+## step 4:
+
+# Part B
+
+1. Create function to connect to MongoDB Atlas and get a reference to the collection using pymongo lib.
+
+
 
 
 
