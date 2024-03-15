@@ -28,10 +28,13 @@ Replace <username>, <password>, <cluster>, <database>, and <your_api_key> with y
 
 ## step 4:
 
-# Part B
+### Part B
+
+# Scrape books data from http://books.toscrape.com and store it in Database.
 
 1. Create function to connect to MongoDB Atlas and get a reference to the collection using pymongo lib.
-
+2. I have using same database url for scaraping books data to store in database and create collection name books.
+3. Scraping Book Data using beautifulsoup.
 
 
 
