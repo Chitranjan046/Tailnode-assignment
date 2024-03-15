@@ -1,42 +1,45 @@
-### Part A
-Fetching User Data and Posts using Python and database mongoDB
-# Fetching User Data.
-## Step 1
-# Installation
-
-1. installed Python and pip  on your system.
-2. pip install requests pymongo python-dotenv(You can use locally database your choice).
-
-## Step 2
-
-# Configuration
-
-I Create a .env file in the project directory and add the following environment variables:
-
-MONGODB_URL=mongodb+srv://<username>:<password>@<cluster>/<database>
-API_KEY=<your_api_key> (generate https://dummyapi.io/)
-
-Replace <username>, <password>, <cluster>, <database>, and <your_api_key> with your actual MongoDB Atlas credentials and API key.
-
-## Step 3:
-# Logic and Execution
-
-1. I create part-A.py file and perform logic fetch the user data and store them in the mongoDB database successfully.
-2. perform posts logic  and store them in the MongoDB database successfully. 
-3. Part A done
 
 
-## step 4:
+### Complete Code for Part A and Part B
 
-### Part B
+## Part A: Fetching User Data and Posts using Python and MongoDB
 
-# Scrape books data from http://books.toscrape.com and store it in Database.
+### Step 1: Installation guid
 
-1. Create function to connect to MongoDB Atlas and get a reference to the collection using pymongo lib.
-2. I have using same database url for scaraping books data to store in database and create collection name books.
-3. Scraping Book Data using beautifulsoup.
+
+1. Ensure installed Python on your system.
+2. pip install requests pymongo( for mongoDB connection lib) python-dotenv(for Enviornment variable)You can use locally database your choice.
+3. Clone the repository.
+4. for part-B you install beautifulsoup4 for scraping data.
 
 
 
+### Step 2: Configuration
+
+1. Create a `.env` file in the project directory.
+2. Add the following environment variables to the `.env` file:
+
+3. I am using MongoDB atlas database for storing data in the database. 
+Replace `<username>`, `<password>`, `<cluster>`, `<database>`, and `<api_key>` with your actual MongoDB Atlas credentials and API key(You can use own your locally  database  )
+4. I generate API_KEY(App_id) from https://dummyapi.io/
+
+### Step 3: Fetching User Data and Posts
+
+1. Create a `part-A.py` file.
+2. Complete logic to fetch user data and store it in the MongoDB database.
+3. Added logic to fetch posts data and store it in the MongoDB database.
+4. Part A is now completed.
+
+## Part B: Scraping Books Data from http://books.toscrape.com and Storing it in Database
+
+### Step 4: Scraping Books Data
+
+1. I create a `part-B.py` file
+2. Create a function to connect to MongoDB Atlas and get a reference to the collection using the PyMongo library.
+3. Use the same MongoDB URL to store scraped books data in a collection named `books`.
+4. Installed beautifulsoup4 for scraping book data.
+5. Implement logic to scrape books data from http://books.toscrape.com and store it in the MongoDB database.
+6. Utilize BeautifulSoup for scraping book data.
+7. Part B is now completed.
 
 
