@@ -1,0 +1,29 @@
+### Part A
+Fetching User Data and Posts using Python and database mongoDB
+# Fetching User Data.
+## Step 1
+# Installation
+
+1. installed Python and pip  on your system.
+2. pip install requests pymongo python-dotenv(You can use locally database your choice).
+
+## Step 2
+
+# Configuration
+
+I Create a .env file in the project directory and add the following environment variables:
+
+MONGODB_URL=mongodb+srv://<username>:<password>@<cluster>/<database>
+API_KEY=<your_api_key> (generate https://dummyapi.io/)
+
+Replace <username>, <password>, <cluster>, <database>, and <your_api_key> with your actual MongoDB Atlas credentials and API key.
+
+## Step 3:
+# Execution
+
+I create part-A.py file and perform logic fetch the user data and store them in the mongoDB database successfully.
+
+
+
+
+
