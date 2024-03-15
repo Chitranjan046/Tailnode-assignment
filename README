@@ -19,9 +19,12 @@ API_KEY=<your_api_key> (generate https://dummyapi.io/)
 Replace <username>, <password>, <cluster>, <database>, and <your_api_key> with your actual MongoDB Atlas credentials and API key.
 
 ## Step 3:
-# Execution
+# Logic and Execution
 
-I create part-A.py file and perform logic fetch the user data and store them in the mongoDB database successfully.
+1. I create part-A.py file and perform logic fetch the user data and store them in the mongoDB database successfully.
+2. perform posts logic  and store them in the MongoDB database successfully. 
+3. Part A done
+
 
 
 
